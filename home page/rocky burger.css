@@ -1,0 +1,17 @@
+.topnav {
+    display: flex;
+
+}
+
+#logo {
+    width: 250px;
+    height: 150px;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5% 20px 0px 20px;
+}
+ul {
+    float: right;
+}
