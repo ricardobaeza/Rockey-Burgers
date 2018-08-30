@@ -1,0 +1,122 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: darkred;
+    padding-top: 10px;
+}
+.topnav {
+    display: flex;
+    background-color: white;
+    height: 20%;
+    box-shadow: black;
+}
+
+.topnav ul {
+    font-family: 'Anton', sans-serif;
+    top: 50%;
+
+}
+
+.topnav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 40px;
+}
+#logo {
+    width: 250px;
+    height: 150px;
+}
+#burgerpic {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: black;
+
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5% 20px 0px 20px;
+}
+ul {
+    float: right;
+}
+.centercontent {
+    width: 70%;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translate(-50%, -50%);
+
+}
+
+.imgandtxt {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.menu {
+    display: flex;
+    padding-top: 10px;
+    position: relative;
+    text-align: left;
+    color: white;
+    padding-bottom: 10px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+}
+.menu a {
+    font-size: 50px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+
+}
+a:hover {
+    color: darkred;
+    -webkit-transition: opacity 2s ease-in;
+}
+#grillburger {
+    width: 50%;
+    padding-right: 5px;
+}
+#bonfire {
+    width: 50%;
+    padding-left: 5px;
+}
+
+#right-center {
+    left: 70%;
+    text-align: right;
+}
+.footer {
+    display: flex;
+    background-color: black;
+}
+.footer li {
+    display: inline;
+    text-align: center;
+
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    color: white;
+
+
+}
+
+
