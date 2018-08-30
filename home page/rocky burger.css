@@ -7,7 +7,7 @@ body {
 .topnav {
     display: flex;
     background-color: white;
-    height: 20%;
+    height: 15%;
     box-shadow: black;
 }
 
@@ -22,6 +22,7 @@ body {
     color: black;
     padding: 20px;
     font-size: 40px;
+    top: 50%;
 }
 #logo {
     width: 250px;
@@ -35,7 +36,6 @@ body {
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    box-shadow: black;
 
 }
 
