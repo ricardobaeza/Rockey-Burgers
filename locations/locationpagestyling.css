@@ -1,0 +1,46 @@
+body {
+    background-color: darkred;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+    margin-top:10px;
+}
+#wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.saltlake {
+    grid-column: 1/1;
+}
+
+.sandy {
+    grid-column: 2;
+}
+
+.locationcard {
+    background-color: black;
+    display: inline;
+    flex:1 1 auto;
+    border:10px darkred solid;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+.topnav > h1 {
+    padding: 2% 50px 0 50px;
+}
+
+#logo {
+    width: 250px;
+    height: 150px;
+}
+iframe {
+    padding-top: 10px;
+}
