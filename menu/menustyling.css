@@ -1,0 +1,87 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: darkred;
+    margin: 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+
+}
+
+h1{
+    margin: 0;
+    font-family: 'Anton', sans-serif;
+
+}
+
+.side-img img {
+    width: 60%;
+    height: 175px;
+}
+
+.topnav {
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    background: white;
+    border-top: 10px darkred solid;
+    border-bottom: 10px darkred solid;
+    align-items: center;
+
+}
+.wrapper {
+    background: black;
+    width: 70%;
+    margin:auto;
+    height: 2180px;
+    padding-top: 1px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 17% 18% 12% 15% 7% 11% 15%;
+}
+.wrapper > p {
+    color: white;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+}
+.topnav > p {
+    padding-left:90px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+}
+
+#burgerpic {
+    width: 250px;
+    height: 150px;
+}
+.content {
+    color: white;
+    margin: 30px;
+}
+.food-type {
+    font-size: 2em;
+    text-decoration: underline;
+}
+
+.food-name {
+    font-size: 1.5em;
+}
+#menu-header {
+    margin-bottom:10px;
+}
+
+.menu-item {
+    margin: 20px;
+}
+.side-img {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
