@@ -3,17 +3,34 @@
         <title>Rocky Burgers</title>
         <link href="rocky burger.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+        <script>
+            function myFunction() {
+                let x = document.getElementById("whyExpensive");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
 
+            function aFunction() {
+                let x = document.getElementById("wherebeef");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none"
+                }
+            }
+        </script>
     </head>
     <body>
         <div class="topnav">
             <img src="../menu/rockyburgerlogo.png" id="logo" />
 
-            <ul class="topnav">
+            <ul>
                 <li><a href="http://localhost:63342/Projects/Rocky%20Burgers/locations/locationpage.html?_ijt=5cmmcdmuqvntlgegq21had9jod">locations</a></li>
                 <li><a href="#">Jobs</a></li>
                 <li><a href="http://localhost:63342/Projects/Rocky%20Burgers/menu/menu.html?_ijt=djlupetjht3957eq8d2n4lb4pe">Menu</a> </li>
-                <li><a href="#">FAQ</a></li>
             </ul>
         </div>
 
@@ -56,13 +73,37 @@
                 </p>
             </div>
         </div>
-        <div class="footer">
+        <div class="FAQ">
+            <div class="burger-center-content">
+                <p>Frequently Asked Questions</p>
+                <div class="whyexbtn">
+                    <button onclick="myFunction()">Why is Rocky Burgers so expensive?</button>
+                    <div id="whyExpensive">
+                        We focus on making meals with the best and freshest ingredients,
+                        like humanely-raised beef that is ground fresh each day, organic chicken, and Rockey
+                        Family Dairy’s organic cream for our ice cream cones, sundaes and shakes.Ourcommitment to
+                        freshness and quality means higher prices than you’d find at traditional fast-food burger chains.
+                        It also means food that tastes way better — because, well, it is.
+                    </div>
+                    <button onclick="aFunction()">Where does our beef come from? </button>
+                    <div id="wherebeef">
+                        We source our humanely-raised, vegetarian-fed beef from local, family-owned ranches.
+                        We use an 85% to 15% protein to fat blend, a mixture of the lean protein and the marbling
+                        found on in a cut of steak for our ground beef. The mixture is ground daily, and thus, our
+                        burgers taste so amazing.
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <footer>
             <ul>
                 <li><a href="#">locations</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">jobs</a></li>
                 <li><a href="#">FAQ</a></li>
             </ul>kl
-        </div>
+        </footer>
     </body>
 </html>

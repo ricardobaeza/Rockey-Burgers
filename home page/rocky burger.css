@@ -1,43 +1,31 @@
 body {
-    padding: 0px;
     margin: 0px;
     background-color: darkred;
-    padding-top: 10px;
 }
+
 .topnav {
     display: flex;
+    align-items: center;
     background-color: white;
-    height: 20%;
+    border-top: 10px solid darkred;
+    border-bottom: 10px solid darkred;
 }
 
-@media (min-width: 1441px) {
-    .topnav {
-        height: 17%;
-    }
-
-}
-.topnav ul {
-    font-family: 'Anton', sans-serif;
+.topnav > ul, li, a {
     display: flex;
-    padding-top: 32px;
-    list-style-type: none;
-}
-
-.topnav a{
+    margin: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
     text-decoration: none;
     color: black;
-    font-size: 40px;
-    list-style-type: none;
-    padding: 23px;
-    transition: all 1s;
-
 }
+
+
 #logo {
     width: 250px;
     height: 150px;
 }
 #burgerpic {
-    padding-top: 10px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -115,30 +103,11 @@ a:hover {
 }
 
 
-.footer {
-    display: flex;
-    background-color: black;
-}
-.footer li {
-    display: inline;
-    text-align: center;
-
-}
-
-.footer a {
-    text-decoration: none;
-    font-family: 'Anton', sans-serif;
-    color: white;
-    padding-right: 25px;
-    padding-left: 25px;
-}
-
 .wrapper {
     display: grid;
     grid-template-columns:  40% 60%;
     padding: 4%;
     background-color: black;
-    border-bottom: 10px darkred solid;
 }
 .wrapper p {
     color: white;
@@ -149,4 +118,73 @@ a:hover {
 
 #aboutuslogo {
     width: 100%;
+}
+
+.whyexbtn {
+    width: 100%;
+}
+
+.whyexbtn > button {
+    border: none;
+    height: 100px;
+    width: 100%;
+    font-size: 25px;
+    background-color: black;
+    color: whIte;
+    margin: 0 0 10px 0;
+}
+
+.whyexbtn > button:focus {
+    outline: 0;
+}
+
+
+
+
+#whyExpensive {
+    display: none;
+    margin: 20px auto;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+#wherebeef {
+    display: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+
+.burger-center-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #8c8c8c;
+    height: 400px;
+}
+.burger-center-content > p {
+    color: white;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    margin:40px;
+    border-bottom: 5px solid #8c8c8c;
+}
+
+
+
+footer {
+    background-color: black;
+    border-top: 10px solid darkred;
+
+}
+
+footer> ul {
+    color: white;
+    display: flex;
+    margin: 0;
+}
+
+footer a {
+    color: white;
+
 }
