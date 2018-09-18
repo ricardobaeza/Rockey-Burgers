@@ -77,7 +77,7 @@ body {
 .center {
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 20%;
     transform: translateY(-50%);
 }
 .menu a {
@@ -160,7 +160,7 @@ a:hover {
     text-align: center;
     justify-content: center;
     background-color: #8c8c8c;
-    height: 400px;
+    height: auto;
 }
 .burger-center-content > p {
     color: white;
@@ -174,7 +174,6 @@ a:hover {
 
 footer {
     background-color: black;
-    border-top: 10px solid darkred;
 
 }
 
@@ -187,4 +186,16 @@ footer> ul {
 footer a {
     color: white;
 
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+iframe {
+    width: 74%;
+    height: 600px;
 }

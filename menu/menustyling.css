@@ -34,6 +34,18 @@ h1{
     align-items: center;
 
 }
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 37px;
+}
+
+.topnav a:hover {
+    color: darkred;
+}
 .wrapper {
     background: black;
     width: 70%;

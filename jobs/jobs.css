@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+    font-family: 'Anton', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    border-top: 10px solid darkred;
+    border-bottom: 10px solid darkred;
+    background-color: white;
+    box-shadow: 1px -6px 20px 0px black;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+header a:hover {
+    color: darkred;
+}
+header h1 {
+    margin: 50px;
+    color: black;
+
+}
+
+#burgerpic {
+    width: 250px;
+    height: 150px;
+}
+
+.content {
+    background-color: black;
+    color: white;
+    height: 900px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+.job-item {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.job-item input {
+    padding: 5px;
+    margin: 10px;
+    height: 15px;
+    border-radius: 2px;
+    border: none;
+
+}
+
+.headings {
+    font-size: 50px;
+    text-align: center;
+}
+.info {
+    width: 45%;
+    margin: 0 auto;
+}
+
+.schedulingwork {
+    width: 80%;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+}
+
+.wkhsty {
+    font-size: 30px;
+    margin: 10px 0;
+}
