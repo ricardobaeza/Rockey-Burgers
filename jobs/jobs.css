@@ -58,6 +58,11 @@ header h1 {
     margin: 10px;
 }
 
+.job-item select {
+    margin-top:14px;
+    margin-left: 10px;
+}
+
 .job-item input {
     padding: 5px;
     margin: 10px;
