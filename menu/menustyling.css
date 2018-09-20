@@ -19,6 +19,10 @@ h1{
 
 }
 
+#home {
+    margin: 40px;
+}
+
 .side-img img {
     width: 60%;
     height: 175px;
@@ -35,13 +39,14 @@ h1{
 
 }
 
-.topnav a {
+.topnav > a {
     text-decoration: none;
     color: black;
-    padding: 20px;
     font-family: 'Anton', sans-serif;
-    font-size: 37px;
+    font-size: 30px;
+
 }
+
 
 .topnav a:hover {
     color: darkred;
@@ -65,7 +70,7 @@ h1{
 .topnav > p {
     padding-left:90px;
     font-family: 'Anton', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #burgerpic {

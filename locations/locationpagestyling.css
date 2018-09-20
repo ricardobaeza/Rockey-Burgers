@@ -34,11 +34,11 @@ body {
     flex-direction: row;
     background-color: white;
     height: 150px;
+    font-size: 30px;
 }
 
-.topnav a {
+.topnav > a {
     text-decoration: none;
-    font-size: 30px;
     color: black;
     font-weight: bold;
     margin: 50px;
